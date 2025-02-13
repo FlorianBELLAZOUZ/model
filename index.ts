@@ -6,7 +6,7 @@ import {
   VNode,
 } from "snabbdom"
 
-const patch = init([styleModule, eventListenersModule])
+export const patch = init([styleModule, eventListenersModule])
 
 const defaultUpdate = (action, state) => state
 const defaultView = (state) => state
